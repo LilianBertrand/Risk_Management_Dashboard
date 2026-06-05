@@ -130,22 +130,6 @@ This modular structure is more professional than a single script because each fi
 
 ---
 
-## Installation
-
-From the project folder:
-
-```bash
-pip install -r requirements.txt
-```
-
-Then run:
-
-```bash
-streamlit run app.py
-```
-
----
-
 ## Default Portfolio
 
 The default portfolio is a US large-cap portfolio:
@@ -206,44 +190,6 @@ The dashboard decomposes total portfolio volatility into asset-level risk contri
 
 ---
 
-## Interview Pitch
-
-You can present the project like this:
-
-> I developed a professional Python-based risk management dashboard to analyse the risk profile of a multi-asset portfolio. The tool downloads historical market data, computes portfolio returns and calculates key market risk indicators such as volatility, maximum drawdown, historical VaR, Gaussian VaR, Cornish-Fisher VaR, Monte Carlo VaR and Expected Shortfall.
-
-Then add:
-
-> I also implemented rolling risk indicators, EWMA volatility and VaR backtesting with a Kupiec test to validate whether the model remains reliable over time. Finally, I included benchmark-relative metrics, asset-level risk contribution and stress testing to identify the main sources of risk and assess portfolio resilience under adverse market conditions.
-
----
-
-## CV Description
-
-```text
-Built a professional Python market risk dashboard including historical, Gaussian, Cornish-Fisher and Monte Carlo VaR, Expected Shortfall, EWMA volatility, VaR backtesting with Kupiec test, benchmark-relative risk metrics, stress testing and risk contribution decomposition.
-```
-
-Alternative version:
-
-```text
-Designed a modular Python risk monitoring framework to assess portfolio downside risk, validate VaR models, decompose asset-level risk contribution and evaluate portfolio resilience under historical and hypothetical stress scenarios.
-```
-
----
-
-## Limitations
-
-This project is professional and interview-ready, but it remains an educational risk analytics tool. Main limitations:
-
-- Yahoo Finance data is not institutional-grade.
-- Monte Carlo simulation uses a simple normal portfolio-return assumption.
-- No dynamic rebalancing is assumed.
-- Transaction costs are not included.
-- Liquidity risk is simplified.
-- No interest-rate curve, credit spread curve or FX factor model is included.
-
----
 
 ## Possible Future Extensions
 
@@ -256,3 +202,11 @@ This project is professional and interview-ready, but it remains an educational 
 - Bloomberg / Refinitiv connection
 - PDF report generation
 - Authentication and deployment on Streamlit Cloud
+
+---
+
+
+## Live Demo
+
+https://riskmanagementdashboard-25bjttophwhdxncfeosntu.streamlit.app/
+
