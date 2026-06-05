@@ -1,0 +1,11 @@
+portfolio,ticker,weight
+US Large Cap,AAPL,0.25
+US Large Cap,MSFT,0.25
+US Large Cap,GOOGL,0.20
+US Large Cap,AMZN,0.15
+US Large Cap,JPM,0.15
+Balanced ETF,SPY,0.45
+Balanced ETF,TLT,0.25
+Balanced ETF,IEF,0.15
+Balanced ETF,GLD,0.10
+Balanced ETF,VNQ,0.05
